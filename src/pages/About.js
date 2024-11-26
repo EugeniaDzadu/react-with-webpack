@@ -1,13 +1,12 @@
 
-import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Nav from "../components/Nav";
+
 
 
 function About(){
     return(
         <>
-        <Nav/>
+        
 
         <Header title='About Us' subTitle="This is what we do." bgImage="about-bg.jpg"/>
 
@@ -23,7 +22,7 @@ function About(){
             </div>
         </main>
 
-        <Footer/>
+        
 
         </>
 

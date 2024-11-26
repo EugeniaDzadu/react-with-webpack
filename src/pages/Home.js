@@ -1,13 +1,13 @@
-import Footer from "../components/Footer";
+
+
 import Header from "../components/Header";
-import Nav from "../components/Nav";
 import SinglePost from "../components/Single-post";
 
 
 function Home(){
     return(
         <>
-            <Nav/>
+            
 
             <Header title='Clean Blog' subTitle="A Blog Theme by Start Bootstrap" bgImage="home-bg.jpg"/>
 
@@ -23,7 +23,7 @@ function Home(){
         </div>
 
 
-            <Footer/>
+            
         </>
 
     )

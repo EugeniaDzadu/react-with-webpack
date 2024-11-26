@@ -1,12 +1,12 @@
-import Footer from "../components/Footer";
+
 import Header from "../components/Header";
-import Nav from "../components/Nav";
+
 
 function Post(){
 
     return(
         <>
-           <Nav/>
+           
 
            <Header title=""/>
             
@@ -41,7 +41,7 @@ function Post(){
             </div>
             </article>
 
-           <Footer/>
+           
         </>
     )
 }
